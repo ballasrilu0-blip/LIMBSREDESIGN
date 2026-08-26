@@ -1,468 +1,239 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SERVICES SECTION -->
+<section class="services-section">
 
-    <meta name="description"
-        content="LIMBS - Legal Information Management and Briefing System">
+    <div class="container">
 
-    <title>LIMBS | Legal Information Management & Briefing System</title>
+        <div class="services-header">
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
+            <div>
+                <span class="section-label">
+                    Core Services
+                </span>
 
-<body>
-
-    <!-- TOP BAR -->
-    <div class="gov-bar">
-        <div class="container gov-bar__content">
-
-            <div class="gov-bar__left">
-                <span>🇮🇳 Government of India</span>
-                <span class="gov-divider"></span>
-                <span>Ministry of Law and Justice</span>
+                <h2 class="section-title">
+                    Everything Connected in One Legal Platform
+                </h2>
             </div>
-
-            <div class="gov-bar__tools">
-                <button type="button">A-</button>
-                <button type="button">A</button>
-                <button type="button">A+</button>
-
-                <span class="gov-divider"></span>
-
-                <a href="#main-content">Skip to Main Content</a>
-
-                <span class="gov-divider"></span>
-
-                <button type="button">English ▾</button>
-            </div>
-
-        </div>
-    </div>
-
-
-    <!-- HEADER -->
-    <header class="site-header">
-        <div class="container header__content">
-
-            <a href="index.html" class="brand">
-
-                <div class="brand__emblem">⚖</div>
-
-                <div class="brand__text">
-
-                    <span class="brand__ministry">
-                        Ministry of Law and Justice
-                    </span>
-
-                    <h1>LIMBS</h1>
-
-                    <p>
-                        Legal Information Management & Briefing System
-                    </p>
-
-                </div>
-
-            </a>
-
-
-            <div class="header__actions">
-
-                <div class="header-status">
-                    <span class="status-dot"></span>
-
-                    <div>
-                        <small>System Status</small>
-                        <strong>Operational</strong>
-                    </div>
-                </div>
-
-
-                <a href="pages/dashboard.html" class="header-login">
-                    Secure Portal →
-                </a>
-
-
-                <button
-                    class="menu-toggle"
-                    id="menu-toggle"
-                    type="button"
-                    aria-label="Open navigation menu"
-                    aria-expanded="false">
-
-                    ☰
-
-                </button>
-
-            </div>
-
-        </div>
-    </header>
-
-
-    <!-- NAVIGATION -->
-    <nav class="main-nav" id="navigation">
-        <div class="container nav__content">
-
-            <ul class="nav__links">
-
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-
-                <li>
-                    <a href="pages/about.html">About LIMBS</a>
-                </li>
-
-                <li>
-                    <a href="pages/services.html">Services</a>
-                </li>
-
-                <li>
-                    <a href="pages/dashboard.html">Dashboard</a>
-                </li>
-
-                <li>
-                    <a href="pages/reports.html">Reports</a>
-                </li>
-
-                <li>
-                    <a href="pages/contact.html">Contact</a>
-                </li>
-
-            </ul>
-
-
-            <div class="nav__search">
-                <button type="button" aria-label="Search">
-                    🔍
-                </button>
-            </div>
-
-        </div>
-    </nav>
-
-
-    <main id="main-content">
-
-        <!-- HERO -->
-        <section class="hero-section">
-
-            <div class="container hero-grid">
-
-                <!-- HERO TEXT -->
-                <div class="hero-content">
-
-                    <div class="hero-badge">
-                        <span class="badge-dot"></span>
-                        Next-Generation Legal Intelligence
-                    </div>
-
-                    <h2>
-                        Legal Information.
-                        <span>Connected Intelligently.</span>
-                    </h2>
-
-                    <p>
-                        A modern digital experience for managing legal
-                        information, monitoring important cases and accessing
-                        insights through one unified platform.
-                    </p>
-
-
-                    <div class="hero-actions">
-
-                        <a href="pages/services.html"
-                            class="btn btn--primary">
-
-                            Explore Platform →
-
-                        </a>
-
-
-                        <a href="pages/dashboard.html"
-                            class="btn btn--secondary">
-
-                            View Dashboard
-
-                        </a>
-
-                    </div>
-
-
-                    <div class="hero-trust">
-
-                        <div class="trust-item">
-                            <strong>Unified</strong>
-                            <span>Legal Ecosystem</span>
-                        </div>
-
-                        <div class="trust-line"></div>
-
-                        <div class="trust-item">
-                            <strong>Secure</strong>
-                            <span>Digital Access</span>
-                        </div>
-
-                        <div class="trust-line"></div>
-
-                        <div class="trust-item">
-                            <strong>Smart</strong>
-                            <span>Information Flow</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- DASHBOARD VISUAL -->
-                <div class="hero-visual">
-
-                    <div class="visual-glow glow-one"></div>
-                    <div class="visual-glow glow-two"></div>
-
-
-                    <div class="dashboard-window">
-
-                        <div class="dashboard-top">
-
-                            <div>
-                                <small>LIVE OVERVIEW</small>
-                                <h3>Legal Intelligence Center</h3>
-                            </div>
-
-                            <span class="live-indicator">
-                                <span></span>
-                                LIVE
-                            </span>
-
-                        </div>
-
-
-                        <div class="dashboard-stats">
-
-                            <div class="dashboard-stat">
-
-                                <span class="stat-label">
-                                    Active Records
-                                </span>
-
-                                <strong>24,680</strong>
-
-                                <small class="positive">
-                                    ↗ Updated
-                                </small>
-
-                            </div>
-
-
-                            <div class="dashboard-stat">
-
-                                <span class="stat-label">
-                                    Departments
-                                </span>
-
-                                <strong>42</strong>
-
-                                <small>
-                                    Connected
-                                </small>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="activity-card">
-
-                            <div class="activity-card__top">
-
-                                <div>
-                                    <small>INFORMATION FLOW</small>
-                                    <h4>System Activity</h4>
-                                </div>
-
-                                <span class="activity-period">
-                                    Today
-                                </span>
-
-                            </div>
-
-
-                            <div class="chart-area">
-
-                                <span class="chart-line line-1"></span>
-                                <span class="chart-line line-2"></span>
-                                <span class="chart-line line-3"></span>
-
-                                <div class="chart-bars">
-
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="recent-update">
-
-                            <div class="update-icon">⚖</div>
-
-                            <div>
-                                <small>RECENT SYSTEM UPDATE</small>
-
-                                <p>
-                                    Legal information successfully
-                                    synchronized
-                                </p>
-                            </div>
-
-                            <span class="update-status">✓</span>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- FLOATING CARDS -->
-
-                    <div class="floating-card floating-card--one">
-
-                        <span class="floating-icon">🔒</span>
-
-                        <div>
-                            <small>Security</small>
-                            <strong>Protected</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div class="floating-card floating-card--two">
-
-                        <span class="floating-icon">📊</span>
-
-                        <div>
-                            <small>Insights</small>
-                            <strong>Available</strong>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- OVERVIEW -->
-        <section class="overview-section">
-
-            <div class="container">
-
-                <div class="overview-heading">
-
-                    <span class="section-label">
-                        Platform Overview
-                    </span>
-
-                    <h2 class="section-title">
-                        One Platform. Better Legal Information.
-                    </h2>
-
-                    <p class="section-description">
-                        A redesigned interface focused on accessibility,
-                        information discovery and a modern user experience.
-                    </p>
-
-                </div>
-
-
-                <div class="overview-grid">
-
-                    <article class="overview-card">
-
-                        <div class="card-icon">⚖</div>
-
-                        <h3>Legal Information</h3>
-
-                        <p>
-                            Organised access to important legal information
-                            and government-related resources.
-                        </p>
-
-                    </article>
-
-
-                    <article class="overview-card">
-
-                        <div class="card-icon">📊</div>
-
-                        <h3>Smart Insights</h3>
-
-                        <p>
-                            A clear and structured interface for understanding
-                            legal data and information.
-                        </p>
-
-                    </article>
-
-
-                    <article class="overview-card">
-
-                        <div class="card-icon">🔒</div>
-
-                        <h3>Secure Access</h3>
-
-                        <p>
-                            A professional digital environment designed with
-                            secure and responsible access in mind.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer class="site-footer">
-        <div class="container">
 
             <p>
-                © 2026 LIMBS Frontend Redesign · Academic Project
+                Explore the key digital services designed to simplify legal
+                information management and improve accessibility.
             </p>
 
         </div>
-    </footer>
 
 
-    <!-- JAVASCRIPT -->
-    <script src="js/navigation.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/accessibility.js"></script>
-    <script src="js/animations.js"></script>
+        <div class="services-grid">
 
-</body>
-</html>
+            <article class="service-card featured-service">
+
+                <div class="service-number">01</div>
+
+                <div class="service-icon">⚖</div>
+
+                <h3>Case Management</h3>
+
+                <p>
+                    Organize and monitor legal cases through a structured
+                    and user-friendly digital interface.
+                </p>
+
+                <a href="pages/services.html">
+                    Explore Service →
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-number">02</div>
+
+                <div class="service-icon">📁</div>
+
+                <h3>Document Management</h3>
+
+                <p>
+                    Access and organize important legal documents and
+                    information from a centralized platform.
+                </p>
+
+                <a href="pages/services.html">
+                    Explore Service →
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-number">03</div>
+
+                <div class="service-icon">📊</div>
+
+                <h3>Analytics & Insights</h3>
+
+                <p>
+                    Understand legal information with clear summaries,
+                    visual insights and organized reporting.
+                </p>
+
+                <a href="pages/reports.html">
+                    Explore Service →
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-number">04</div>
+
+                <div class="service-icon">🔔</div>
+
+                <h3>Smart Notifications</h3>
+
+                <p>
+                    Stay informed about important updates, activities and
+                    legal information through a centralized system.
+                </p>
+
+                <a href="pages/dashboard.html">
+                    Explore Service →
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CASE STATUS SECTION -->
+<section class="case-status-section">
+
+    <div class="container case-status-grid">
+
+
+        <div class="case-status-content">
+
+            <span class="section-label">
+                Information Tracking
+            </span>
+
+            <h2 class="section-title">
+                A Clear View of Every Legal Process
+            </h2>
+
+            <p class="section-description">
+                Track important stages through a simple visual workflow.
+                This interface demonstrates how information can move
+                through a connected legal ecosystem.
+            </p>
+
+
+            <a href="pages/dashboard.html"
+                class="btn btn--primary">
+
+                Open Live Dashboard →
+
+            </a>
+
+        </div>
+
+
+        <div class="timeline-card">
+
+            <div class="timeline-header">
+
+                <div>
+                    <small>CASE WORKFLOW</small>
+                    <h3>Information Progress</h3>
+                </div>
+
+                <span class="timeline-status">
+                    Active
+                </span>
+
+            </div>
+
+
+            <div class="timeline">
+
+
+                <div class="timeline-item completed">
+
+                    <div class="timeline-dot">✓</div>
+
+                    <div class="timeline-info">
+                        <strong>Information Submitted</strong>
+
+                        <span>
+                            Initial information entered successfully
+                        </span>
+                    </div>
+
+                    <small>Completed</small>
+
+                </div>
+
+
+                <div class="timeline-item completed">
+
+                    <div class="timeline-dot">✓</div>
+
+                    <div class="timeline-info">
+                        <strong>Under Review</strong>
+
+                        <span>
+                            Information is being organized and reviewed
+                        </span>
+                    </div>
+
+                    <small>Completed</small>
+
+                </div>
+
+
+                <div class="timeline-item active">
+
+                    <div class="timeline-dot">●</div>
+
+                    <div class="timeline-info">
+                        <strong>Current Processing</strong>
+
+                        <span>
+                            Latest information is currently being processed
+                        </span>
+                    </div>
+
+                    <small>Active</small>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">○</div>
+
+                    <div class="timeline-info">
+                        <strong>Next Update</strong>
+
+                        <span>
+                            The next stage will appear here
+                        </span>
+                    </div>
+
+                    <small>Pending</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
