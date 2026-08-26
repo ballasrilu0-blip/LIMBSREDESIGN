@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="Modern frontend redesign of the Legal Information Management and Briefing System">
+        content="LIMBS - Legal Information Management and Briefing System">
 
     <title>LIMBS | Legal Information Management & Briefing System</title>
 
-    <!-- CSS Files -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/main.css">
@@ -22,12 +19,8 @@
 
 <body>
 
-    <!-- =========================
-         GOVERNMENT TOP BAR
-    ========================== -->
-
+    <!-- TOP BAR -->
     <div class="gov-bar">
-
         <div class="container gov-bar__content">
 
             <div class="gov-bar__left">
@@ -37,45 +30,30 @@
             </div>
 
             <div class="gov-bar__tools">
-
                 <button type="button">A-</button>
                 <button type="button">A</button>
                 <button type="button">A+</button>
 
                 <span class="gov-divider"></span>
 
-                <a href="#main-content">
-                    Skip to Main Content
-                </a>
+                <a href="#main-content">Skip to Main Content</a>
 
                 <span class="gov-divider"></span>
 
-                <button type="button">
-                    English ▾
-                </button>
-
+                <button type="button">English ▾</button>
             </div>
 
         </div>
-
     </div>
 
 
-    <!-- =========================
-         MAIN HEADER
-    ========================== -->
-
+    <!-- HEADER -->
     <header class="site-header">
-
         <div class="container header__content">
-
-            <!-- Brand -->
 
             <a href="index.html" class="brand">
 
-                <div class="brand__emblem">
-                    ⚖
-                </div>
+                <div class="brand__emblem">⚖</div>
 
                 <div class="brand__text">
 
@@ -94,31 +72,22 @@
             </a>
 
 
-            <!-- Header Actions -->
-
             <div class="header__actions">
 
                 <div class="header-status">
-
                     <span class="status-dot"></span>
 
                     <div>
                         <small>System Status</small>
                         <strong>Operational</strong>
                     </div>
-
                 </div>
 
 
                 <a href="pages/dashboard.html" class="header-login">
-
-                    <span>Secure Portal</span>
-                    <span>→</span>
-
+                    Secure Portal →
                 </a>
 
-
-                <!-- Mobile Menu Button -->
 
                 <button
                     class="menu-toggle"
@@ -134,127 +103,266 @@
             </div>
 
         </div>
-
     </header>
 
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
-
+    <!-- NAVIGATION -->
     <nav class="main-nav" id="navigation">
-
         <div class="container nav__content">
 
             <ul class="nav__links">
 
                 <li>
-                    <a href="index.html" class="active">
-                        Home
-                    </a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
 
                 <li>
-                    <a href="pages/about.html">
-                        About LIMBS
-                    </a>
+                    <a href="pages/about.html">About LIMBS</a>
                 </li>
 
                 <li>
-                    <a href="pages/services.html">
-                        Services
-                    </a>
+                    <a href="pages/services.html">Services</a>
                 </li>
 
                 <li>
-                    <a href="pages/dashboard.html">
-                        Dashboard
-                    </a>
+                    <a href="pages/dashboard.html">Dashboard</a>
                 </li>
 
                 <li>
-                    <a href="pages/reports.html">
-                        Reports
-                    </a>
+                    <a href="pages/reports.html">Reports</a>
                 </li>
 
                 <li>
-                    <a href="pages/contact.html">
-                        Contact
-                    </a>
+                    <a href="pages/contact.html">Contact</a>
                 </li>
 
             </ul>
 
 
             <div class="nav__search">
-
-                <button type="button" aria-label="Search website">
+                <button type="button" aria-label="Search">
                     🔍
                 </button>
-
             </div>
 
         </div>
-
     </nav>
 
 
-    <!-- =========================
-         MAIN CONTENT
-    ========================== -->
-
     <main id="main-content">
 
-        <!-- Development / Introduction Section -->
+        <!-- HERO -->
+        <section class="hero-section">
 
-        <section class="development-placeholder">
+            <div class="container hero-grid">
 
-            <div class="container">
+                <!-- HERO TEXT -->
+                <div class="hero-content">
 
-                <span class="section-label">
-                    Digital Legal Governance
-                </span>
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Next-Generation Legal Intelligence
+                    </div>
 
-                <h2 class="section-title">
+                    <h2>
+                        Legal Information.
+                        <span>Connected Intelligently.</span>
+                    </h2>
 
-                    Building the Future of
-
-                    <span>
-                        Legal Intelligence
-                    </span>
-
-                </h2>
-
-                <p class="section-description">
-
-                    A modern, accessible and intelligent frontend redesign
-                    for the Legal Information Management and Briefing System.
-
-                    This platform is being developed to provide a better
-                    digital experience for accessing legal information,
-                    services and insights.
-
-                </p>
+                    <p>
+                        A modern digital experience for managing legal
+                        information, monitoring important cases and accessing
+                        insights through one unified platform.
+                    </p>
 
 
-                <div class="intro-actions">
+                    <div class="hero-actions">
 
-                    <a href="pages/about.html"
-                        class="btn btn--primary">
+                        <a href="pages/services.html"
+                            class="btn btn--primary">
 
-                        Explore LIMBS
-                        <span>→</span>
+                            Explore Platform →
 
-                    </a>
+                        </a>
 
 
-                    <a href="pages/services.html"
-                        class="btn btn--secondary">
+                        <a href="pages/dashboard.html"
+                            class="btn btn--secondary">
 
-                        View Services
+                            View Dashboard
 
-                    </a>
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-trust">
+
+                        <div class="trust-item">
+                            <strong>Unified</strong>
+                            <span>Legal Ecosystem</span>
+                        </div>
+
+                        <div class="trust-line"></div>
+
+                        <div class="trust-item">
+                            <strong>Secure</strong>
+                            <span>Digital Access</span>
+                        </div>
+
+                        <div class="trust-line"></div>
+
+                        <div class="trust-item">
+                            <strong>Smart</strong>
+                            <span>Information Flow</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DASHBOARD VISUAL -->
+                <div class="hero-visual">
+
+                    <div class="visual-glow glow-one"></div>
+                    <div class="visual-glow glow-two"></div>
+
+
+                    <div class="dashboard-window">
+
+                        <div class="dashboard-top">
+
+                            <div>
+                                <small>LIVE OVERVIEW</small>
+                                <h3>Legal Intelligence Center</h3>
+                            </div>
+
+                            <span class="live-indicator">
+                                <span></span>
+                                LIVE
+                            </span>
+
+                        </div>
+
+
+                        <div class="dashboard-stats">
+
+                            <div class="dashboard-stat">
+
+                                <span class="stat-label">
+                                    Active Records
+                                </span>
+
+                                <strong>24,680</strong>
+
+                                <small class="positive">
+                                    ↗ Updated
+                                </small>
+
+                            </div>
+
+
+                            <div class="dashboard-stat">
+
+                                <span class="stat-label">
+                                    Departments
+                                </span>
+
+                                <strong>42</strong>
+
+                                <small>
+                                    Connected
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="activity-card">
+
+                            <div class="activity-card__top">
+
+                                <div>
+                                    <small>INFORMATION FLOW</small>
+                                    <h4>System Activity</h4>
+                                </div>
+
+                                <span class="activity-period">
+                                    Today
+                                </span>
+
+                            </div>
+
+
+                            <div class="chart-area">
+
+                                <span class="chart-line line-1"></span>
+                                <span class="chart-line line-2"></span>
+                                <span class="chart-line line-3"></span>
+
+                                <div class="chart-bars">
+
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="recent-update">
+
+                            <div class="update-icon">⚖</div>
+
+                            <div>
+                                <small>RECENT SYSTEM UPDATE</small>
+
+                                <p>
+                                    Legal information successfully
+                                    synchronized
+                                </p>
+                            </div>
+
+                            <span class="update-status">✓</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FLOATING CARDS -->
+
+                    <div class="floating-card floating-card--one">
+
+                        <span class="floating-icon">🔒</span>
+
+                        <div>
+                            <small>Security</small>
+                            <strong>Protected</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card floating-card--two">
+
+                        <span class="floating-icon">📊</span>
+
+                        <div>
+                            <small>Insights</small>
+                            <strong>Available</strong>
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -263,8 +371,7 @@
         </section>
 
 
-        <!-- Quick Overview Section -->
-
+        <!-- OVERVIEW -->
         <section class="overview-section">
 
             <div class="container">
@@ -280,10 +387,8 @@
                     </h2>
 
                     <p class="section-description">
-
                         A redesigned interface focused on accessibility,
                         information discovery and a modern user experience.
-
                     </p>
 
                 </div>
@@ -293,13 +398,9 @@
 
                     <article class="overview-card">
 
-                        <div class="card-icon">
-                            ⚖
-                        </div>
+                        <div class="card-icon">⚖</div>
 
-                        <h3>
-                            Legal Information
-                        </h3>
+                        <h3>Legal Information</h3>
 
                         <p>
                             Organised access to important legal information
@@ -311,13 +412,9 @@
 
                     <article class="overview-card">
 
-                        <div class="card-icon">
-                            📊
-                        </div>
+                        <div class="card-icon">📊</div>
 
-                        <h3>
-                            Smart Insights
-                        </h3>
+                        <h3>Smart Insights</h3>
 
                         <p>
                             A clear and structured interface for understanding
@@ -329,13 +426,9 @@
 
                     <article class="overview-card">
 
-                        <div class="card-icon">
-                            🔒
-                        </div>
+                        <div class="card-icon">🔒</div>
 
-                        <h3>
-                            Secure Access
-                        </h3>
+                        <h3>Secure Access</h3>
 
                         <p>
                             A professional digital environment designed with
@@ -353,12 +446,8 @@
     </main>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
+    <!-- FOOTER -->
     <footer class="site-footer">
-
         <div class="container">
 
             <p>
@@ -366,17 +455,14 @@
             </p>
 
         </div>
-
     </footer>
 
 
-    <!-- JavaScript Files -->
-
+    <!-- JAVASCRIPT -->
     <script src="js/navigation.js"></script>
     <script src="js/main.js"></script>
     <script src="js/accessibility.js"></script>
     <script src="js/animations.js"></script>
 
 </body>
-
 </html>

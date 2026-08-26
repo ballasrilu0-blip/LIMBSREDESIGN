@@ -4,15 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector('a[href="#main-content"]');
 
     if (skipLink) {
-
         skipLink.addEventListener("click", () => {
-
-            console.log(
-                "Skipping to main content."
-            );
-
+            console.log("Skipping to main content.");
         });
-
     }
-
 });

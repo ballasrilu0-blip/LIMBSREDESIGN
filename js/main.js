@@ -1,7 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-
-    console.log(
-        "LIMBS Frontend Redesign loaded successfully."
-    );
-
+    console.log("LIMBS Frontend Redesign loaded successfully.");
 });
