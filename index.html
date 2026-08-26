@@ -1,239 +1,518 @@
-<!-- SERVICES SECTION -->
-<section class="services-section">
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <div class="services-header">
+    <title>About LIMBS | Legal Information Management System</title>
 
-            <div>
-                <span class="section-label">
-                    Core Services
-                </span>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
 
-                <h2 class="section-title">
-                    Everything Connected in One Legal Platform
-                </h2>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="gov-bar">
+
+        <div class="container gov-bar__content">
+
+            <div class="gov-bar__left">
+                <span>🇮🇳 Government of India</span>
+                <span class="gov-divider"></span>
+                <span>Ministry of Law and Justice</span>
             </div>
 
-            <p>
-                Explore the key digital services designed to simplify legal
-                information management and improve accessibility.
-            </p>
+            <div class="gov-bar__tools">
+                <button type="button">A-</button>
+                <button type="button">A</button>
+                <button type="button">A+</button>
 
-        </div>
+                <span class="gov-divider"></span>
 
+                <a href="#main-content">Skip to Main Content</a>
 
-        <div class="services-grid">
+                <span class="gov-divider"></span>
 
-            <article class="service-card featured-service">
-
-                <div class="service-number">01</div>
-
-                <div class="service-icon">⚖</div>
-
-                <h3>Case Management</h3>
-
-                <p>
-                    Organize and monitor legal cases through a structured
-                    and user-friendly digital interface.
-                </p>
-
-                <a href="pages/services.html">
-                    Explore Service →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-number">02</div>
-
-                <div class="service-icon">📁</div>
-
-                <h3>Document Management</h3>
-
-                <p>
-                    Access and organize important legal documents and
-                    information from a centralized platform.
-                </p>
-
-                <a href="pages/services.html">
-                    Explore Service →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-number">03</div>
-
-                <div class="service-icon">📊</div>
-
-                <h3>Analytics & Insights</h3>
-
-                <p>
-                    Understand legal information with clear summaries,
-                    visual insights and organized reporting.
-                </p>
-
-                <a href="pages/reports.html">
-                    Explore Service →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-number">04</div>
-
-                <div class="service-icon">🔔</div>
-
-                <h3>Smart Notifications</h3>
-
-                <p>
-                    Stay informed about important updates, activities and
-                    legal information through a centralized system.
-                </p>
-
-                <a href="pages/dashboard.html">
-                    Explore Service →
-                </a>
-
-            </article>
+                <button type="button">English ▾</button>
+            </div>
 
         </div>
 
     </div>
 
-</section>
 
+    <!-- HEADER -->
+    <header class="site-header">
 
-<!-- CASE STATUS SECTION -->
-<section class="case-status-section">
+        <div class="container header__content">
 
-    <div class="container case-status-grid">
+            <a href="../index.html" class="brand">
 
+                <div class="brand__emblem">⚖</div>
 
-        <div class="case-status-content">
+                <div class="brand__text">
 
-            <span class="section-label">
-                Information Tracking
-            </span>
+                    <span class="brand__ministry">
+                        Ministry of Law and Justice
+                    </span>
 
-            <h2 class="section-title">
-                A Clear View of Every Legal Process
-            </h2>
+                    <h1>LIMBS</h1>
 
-            <p class="section-description">
-                Track important stages through a simple visual workflow.
-                This interface demonstrates how information can move
-                through a connected legal ecosystem.
-            </p>
+                    <p>
+                        Legal Information Management & Briefing System
+                    </p>
 
-
-            <a href="pages/dashboard.html"
-                class="btn btn--primary">
-
-                Open Live Dashboard →
+                </div>
 
             </a>
 
+
+            <div class="header__actions">
+
+                <div class="header-status">
+
+                    <span class="status-dot"></span>
+
+                    <div>
+                        <small>System Status</small>
+                        <strong>Operational</strong>
+                    </div>
+
+                </div>
+
+
+                <a href="dashboard.html" class="header-login">
+                    Secure Portal →
+                </a>
+
+
+                <button
+                    class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+
+                    ☰
+
+                </button>
+
+            </div>
+
         </div>
 
+    </header>
 
-        <div class="timeline-card">
 
-            <div class="timeline-header">
+    <!-- NAVIGATION -->
+    <nav class="main-nav" id="navigation">
+
+        <div class="container nav__content">
+
+            <ul class="nav__links">
+
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html" class="active">
+                        About LIMBS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+
+                <li>
+                    <a href="dashboard.html">Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="reports.html">Reports</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+            <div class="nav__search">
+                <button type="button">🔍</button>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <main id="main-content">
+
+        <!-- PAGE HERO -->
+        <section class="page-hero">
+
+            <div class="container">
+
+                <div class="breadcrumb">
+                    <a href="../index.html">Home</a>
+                    <span>→</span>
+                    <span>About LIMBS</span>
+                </div>
+
+                <div class="page-hero__content">
+
+                    <span class="section-label">
+                        About the Platform
+                    </span>
+
+                    <h2>
+                        Redesigning the Experience of
+                        <span>Legal Information.</span>
+                    </h2>
+
+                    <p>
+                        LIMBS represents a connected digital approach to
+                        organizing, accessing and understanding legal
+                        information through a structured and user-friendly
+                        interface.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT INTRO -->
+        <section class="about-intro-section">
+
+            <div class="container about-intro-grid">
+
+                <div class="about-intro-content">
+
+                    <span class="section-label">
+                        Our Vision
+                    </span>
+
+                    <h2 class="section-title">
+                        Legal Information Should Be Clear and Connected.
+                    </h2>
+
+                    <p>
+                        This frontend redesign reimagines the LIMBS digital
+                        experience with a focus on modern design, easier
+                        navigation and improved information discovery.
+                    </p>
+
+                    <p>
+                        The goal is to present complex legal information in
+                        a visually structured environment that feels simple,
+                        professional and accessible.
+                    </p>
+
+                </div>
+
+
+                <div class="about-vision-card">
+
+                    <div class="vision-card__number">
+                        01
+                    </div>
+
+                    <div class="vision-icon">
+                        ⚖
+                    </div>
+
+                    <h3>
+                        Connected Legal Ecosystem
+                    </h3>
+
+                    <p>
+                        A modern interface designed to bring important
+                        information and digital services together.
+                    </p>
+
+                    <div class="vision-line"></div>
+
+                    <div class="vision-mini-grid">
+
+                        <div>
+                            <strong>Clear</strong>
+                            <span>Information</span>
+                        </div>
+
+                        <div>
+                            <strong>Smart</strong>
+                            <span>Experience</span>
+                        </div>
+
+                        <div>
+                            <strong>Unified</strong>
+                            <span>Platform</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRINCIPLES -->
+        <section class="principles-section">
+
+            <div class="container">
+
+                <div class="principles-heading">
+
+                    <span class="section-label">
+                        Design Principles
+                    </span>
+
+                    <h2 class="section-title">
+                        Built Around Better Digital Access
+                    </h2>
+
+                    <p class="section-description">
+                        The redesign follows a set of principles that focus
+                        on clarity, accessibility and a professional user
+                        experience.
+                    </p>
+
+                </div>
+
+
+                <div class="principles-grid">
+
+                    <article class="principle-card">
+
+                        <span class="principle-number">01</span>
+
+                        <div class="principle-icon">
+                            ◈
+                        </div>
+
+                        <h3>Clarity First</h3>
+
+                        <p>
+                            Information is organised into clear sections
+                            that are easier to scan and understand.
+                        </p>
+
+                    </article>
+
+
+                    <article class="principle-card">
+
+                        <span class="principle-number">02</span>
+
+                        <div class="principle-icon">
+                            ◎
+                        </div>
+
+                        <h3>Accessible Design</h3>
+
+                        <p>
+                            The interface is designed with readable layouts,
+                            responsive structure and simple navigation.
+                        </p>
+
+                    </article>
+
+
+                    <article class="principle-card">
+
+                        <span class="principle-number">03</span>
+
+                        <div class="principle-icon">
+                            ↗
+                        </div>
+
+                        <h3>Modern Experience</h3>
+
+                        <p>
+                            Contemporary layouts and interactive components
+                            create a more engaging digital experience.
+                        </p>
+
+                    </article>
+
+
+                    <article class="principle-card">
+
+                        <span class="principle-number">04</span>
+
+                        <div class="principle-icon">
+                            ⬡
+                        </div>
+
+                        <h3>Unified Structure</h3>
+
+                        <p>
+                            Pages and services follow a consistent design
+                            system across the complete platform.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PLATFORM FLOW -->
+        <section class="platform-flow-section">
+
+            <div class="container">
+
+                <div class="platform-flow-card">
+
+                    <div class="flow-content">
+
+                        <span class="section-label">
+                            Digital Flow
+                        </span>
+
+                        <h2>
+                            From Information to
+                            <span>Better Understanding.</span>
+                        </h2>
+
+                        <p>
+                            The redesigned platform demonstrates how
+                            information can move through a structured
+                            digital environment.
+                        </p>
+
+                    </div>
+
+
+                    <div class="flow-steps">
+
+                        <div class="flow-step">
+
+                            <div class="flow-step__circle">
+                                1
+                            </div>
+
+                            <div>
+                                <strong>Collect</strong>
+                                <span>
+                                    Information enters the platform
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="flow-connector"></div>
+
+
+                        <div class="flow-step">
+
+                            <div class="flow-step__circle">
+                                2
+                            </div>
+
+                            <div>
+                                <strong>Organize</strong>
+                                <span>
+                                    Data is structured clearly
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="flow-connector"></div>
+
+
+                        <div class="flow-step">
+
+                            <div class="flow-step__circle">
+                                3
+                            </div>
+
+                            <div>
+                                <strong>Understand</strong>
+                                <span>
+                                    Insights become accessible
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="about-cta-section">
+
+            <div class="container about-cta">
 
                 <div>
-                    <small>CASE WORKFLOW</small>
-                    <h3>Information Progress</h3>
+
+                    <span class="section-label">
+                        Explore Further
+                    </span>
+
+                    <h2 class="section-title">
+                        Discover the Platform Experience
+                    </h2>
+
                 </div>
 
-                <span class="timeline-status">
-                    Active
-                </span>
+                <a href="services.html" class="btn btn--primary">
+                    Explore Services →
+                </a>
 
             </div>
 
+        </section>
 
-            <div class="timeline">
-
-
-                <div class="timeline-item completed">
-
-                    <div class="timeline-dot">✓</div>
-
-                    <div class="timeline-info">
-                        <strong>Information Submitted</strong>
-
-                        <span>
-                            Initial information entered successfully
-                        </span>
-                    </div>
-
-                    <small>Completed</small>
-
-                </div>
+    </main>
 
 
-                <div class="timeline-item completed">
+    <!-- FOOTER -->
+    <footer class="site-footer">
 
-                    <div class="timeline-dot">✓</div>
+        <div class="container">
 
-                    <div class="timeline-info">
-                        <strong>Under Review</strong>
-
-                        <span>
-                            Information is being organized and reviewed
-                        </span>
-                    </div>
-
-                    <small>Completed</small>
-
-                </div>
-
-
-                <div class="timeline-item active">
-
-                    <div class="timeline-dot">●</div>
-
-                    <div class="timeline-info">
-                        <strong>Current Processing</strong>
-
-                        <span>
-                            Latest information is currently being processed
-                        </span>
-                    </div>
-
-                    <small>Active</small>
-
-                </div>
-
-
-                <div class="timeline-item">
-
-                    <div class="timeline-dot">○</div>
-
-                    <div class="timeline-info">
-                        <strong>Next Update</strong>
-
-                        <span>
-                            The next stage will appear here
-                        </span>
-                    </div>
-
-                    <small>Pending</small>
-
-                </div>
-
-            </div>
+            <p>
+                © 2026 LIMBS Frontend Redesign · Academic Project
+            </p>
 
         </div>
 
-    </div>
+    </footer>
 
-</section>
+
+    <!-- JAVASCRIPT -->
+    <script src="../js/navigation.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/accessibility.js"></script>
+    <script src="../js/animations.js"></script>
+
+</body>
+
+</html>

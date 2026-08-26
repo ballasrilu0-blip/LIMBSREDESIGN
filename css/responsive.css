@@ -1,41 +1,52 @@
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 
-    .services-grid {
+    .about-intro-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .principles-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .case-status-grid {
-        grid-template-columns: 1fr;
-        gap: 3rem;
+    .flow-steps {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.5rem;
+    }
+
+    .flow-connector {
+        width: 2px;
+        height: 35px;
+        margin: 0 22px;
     }
 }
 
 
 @media (max-width: 700px) {
 
-    .services-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
+    .page-hero {
+        padding: 4rem 0;
     }
 
-    .services-grid {
+    .principles-grid {
         grid-template-columns: 1fr;
     }
 
-    .service-card {
-        min-height: 280px;
+    .platform-flow-card {
+        padding: 1.5rem;
     }
 
-    .timeline-card {
-        padding: 1.2rem;
+    .about-vision-card {
+        padding: 1.8rem;
     }
 
-    .timeline-item {
-        grid-template-columns: 38px 1fr;
+    .vision-mini-grid {
+        grid-template-columns: 1fr;
     }
 
-    .timeline-item > small {
-        display: none;
+    .about-cta {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
