@@ -258,3 +258,64 @@
         flex-direction: column;
     }
 }
+/* =========================
+   CONTACT RESPONSIVE
+========================= */
+
+@media (max-width: 1100px) {
+
+    .contact-hero-grid,
+    .contact-form-grid,
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-options-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-form-grid,
+    .faq-grid {
+        gap: 3rem;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .contact-hero {
+        padding: 3rem 0;
+    }
+
+    .contact-options-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form-section,
+    .faq-section {
+        padding: 4rem 0;
+    }
+
+    .contact-form-card {
+        padding: 1.5rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .form-footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .form-footer .btn {
+        width: 100%;
+    }
+
+    .contact-cta-card {
+        padding: 2rem;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
