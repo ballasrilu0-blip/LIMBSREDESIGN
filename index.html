@@ -7,408 +7,174 @@
 
     <title>LIMBS | Legal Information Management & Briefing System</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 
 <body>
 
     <!-- TOP BAR -->
-    <div class="top-bar">
-        <div class="container top-bar-content">
+    <div class="topbar">
+        <div class="container topbar-content">
             <span>Legal Information Management & Briefing System</span>
-            <div class="top-links">
-                <a href="pages/contact.html">Help</a>
-                <a href="pages/contact.html">Contact</a>
-                <span>Accessibility</span>
+
+            <div class="topbar-links">
+                <a href="/pages/contact.html">Help</a>
+                <a href="/pages/contact.html">Contact</a>
+                <a href="/pages/about.html">Accessibility</a>
             </div>
         </div>
     </div>
 
+
     <!-- HEADER -->
     <header class="site-header">
-        <div class="container nav-container">
+        <div class="container navbar">
 
-            <a href="index.html" class="logo">
-                <div class="logo-mark">L</div>
-                <div>
+            <a href="/index.html" class="logo">
+                <div class="logo-icon">L</div>
+
+                <div class="logo-text">
                     <strong>LIMBS</strong>
                     <span>Legal Intelligence Platform</span>
                 </div>
             </a>
 
-            <button class="menu-toggle" id="menuToggle"
-                aria-label="Open navigation menu">
-                ☰
-            </button>
-
-            <nav class="main-nav" id="mainNav">
-                <a href="index.html" class="active">Home</a>
-                <a href="pages/about.html">About</a>
-                <a href="pages/services.html">Services</a>
-                <a href="pages/dashboard.html">Dashboard</a>
-                <a href="pages/reports.html">Reports</a>
-                <a href="pages/contact.html">Contact</a>
+            <nav class="nav-links">
+                <a class="active" href="/index.html">Home</a>
+                <a href="/pages/about.html">About</a>
+                <a href="/pages/services.html">Services</a>
+                <a href="/pages/dashboard.html">Dashboard</a>
+                <a href="/pages/reports.html">Reports</a>
+                <a href="/pages/contact.html">Contact</a>
             </nav>
 
-            <a href="pages/dashboard.html" class="nav-action">
+            <a href="/pages/dashboard.html" class="btn btn--primary">
                 Access Portal →
             </a>
 
         </div>
     </header>
 
-    <main>
 
-        <!-- HERO -->
+    <!-- HERO -->
+    <main>
         <section class="hero">
+
             <div class="container hero-grid">
 
                 <div class="hero-content">
+
                     <span class="section-label">
-                        DIGITAL LEGAL INTELLIGENCE
+                        Digital Legal Intelligence
                     </span>
 
-                    <h1>
-                        Legal information.
-                        <span>Organized intelligently.</span>
+                    <h1 class="hero-title">
+                        Legal
+                        <br>
+                        information.
+                        <span>Organized intelligence.</span>
                     </h1>
 
-                    <p>
+                    <p class="hero-description">
                         LIMBS brings legal information, case intelligence,
                         briefings, reports and digital workflows together
                         in one modern and accessible platform.
                     </p>
 
                     <div class="hero-actions">
-                        <a href="pages/dashboard.html" class="btn btn-primary">
+                        <a href="/pages/dashboard.html"
+                           class="btn btn--primary">
                             Explore Dashboard →
                         </a>
 
-                        <a href="pages/about.html" class="btn btn-secondary">
+                        <a href="/pages/about.html"
+                           class="btn btn--secondary">
                             Learn More
                         </a>
                     </div>
 
-                    <div class="hero-trust">
-                        <div>
-                            <strong>Secure</strong>
-                            <span>Information access</span>
-                        </div>
-
-                        <div>
-                            <strong>Centralized</strong>
-                            <span>Legal intelligence</span>
-                        </div>
-
-                        <div>
-                            <strong>Digital</strong>
-                            <span>Modern workflow</span>
-                        </div>
-                    </div>
                 </div>
 
-                <!-- HERO PANEL -->
-                <div class="hero-panel">
+
+                <!-- RIGHT PANEL -->
+                <div class="intelligence-panel">
 
                     <div class="panel-header">
                         <span>LEGAL INTELLIGENCE</span>
-                        <span class="live-dot">● LIVE</span>
+                        <span class="live-status">● LIVE</span>
                     </div>
 
-                    <div class="panel-main">
-                        <p>System Overview</p>
+                    <div class="panel-body">
 
-                        <h2>Everything in one place.</h2>
+                        <p class="panel-subtitle">
+                            System Overview
+                        </p>
 
-                        <div class="overview-grid">
-                            <div class="overview-card">
-                                <span>01</span>
-                                <strong>Cases</strong>
-                                <small>Track & manage</small>
+                        <h2 class="panel-title">
+                            Everything in one place.
+                        </h2>
+
+                        <div class="panel-grid">
+
+                            <div class="panel-card">
+                                <span class="panel-number">01</span>
+                                <h3>Cases</h3>
+                                <p>Track & manage</p>
                             </div>
 
-                            <div class="overview-card">
-                                <span>02</span>
-                                <strong>Briefings</strong>
-                                <small>Prepare insights</small>
+                            <div class="panel-card">
+                                <span class="panel-number">02</span>
+                                <h3>Briefings</h3>
+                                <p>Prepare insights</p>
                             </div>
 
-                            <div class="overview-card">
-                                <span>03</span>
-                                <strong>Reports</strong>
-                                <small>Analyze data</small>
+                            <div class="panel-card">
+                                <span class="panel-number">03</span>
+                                <h3>Reports</h3>
+                                <p>Analyze data</p>
                             </div>
 
-                            <div class="overview-card">
-                                <span>04</span>
-                                <strong>Services</strong>
-                                <small>Digital access</small>
+                            <div class="panel-card">
+                                <span class="panel-number">04</span>
+                                <h3>Services</h3>
+                                <p>Digital access</p>
                             </div>
+
                         </div>
+
                     </div>
 
                     <div class="panel-footer">
                         <span>Connected Platform</span>
-                        <strong>● System Ready</strong>
+                        <strong>• System Ready</strong>
                     </div>
 
                 </div>
 
             </div>
+
         </section>
-
-
-        <!-- QUICK ACCESS -->
-        <section class="quick-access">
-            <div class="container">
-
-                <div class="section-heading">
-                    <div>
-                        <span class="section-label">QUICK ACCESS</span>
-                        <h2>Access what you need.</h2>
-                    </div>
-
-                    <p>
-                        Explore the main digital services available
-                        through the LIMBS platform.
-                    </p>
-                </div>
-
-                <div class="access-grid">
-
-                    <a href="pages/services.html" class="access-card">
-                        <span class="card-number">01</span>
-                        <div class="card-icon">⚖</div>
-                        <h3>Legal Services</h3>
-                        <p>
-                            Access structured legal information and
-                            digital service workflows.
-                        </p>
-                        <span class="card-arrow">→</span>
-                    </a>
-
-                    <a href="pages/dashboard.html" class="access-card">
-                        <span class="card-number">02</span>
-                        <div class="card-icon">◫</div>
-                        <h3>Dashboard</h3>
-                        <p>
-                            View centralized information, activity
-                            and legal intelligence insights.
-                        </p>
-                        <span class="card-arrow">→</span>
-                    </a>
-
-                    <a href="pages/reports.html" class="access-card">
-                        <span class="card-number">03</span>
-                        <div class="card-icon">◔</div>
-                        <h3>Reports</h3>
-                        <p>
-                            Review structured reports and data-driven
-                            summaries for better decisions.
-                        </p>
-                        <span class="card-arrow">→</span>
-                    </a>
-
-                    <a href="pages/contact.html" class="access-card">
-                        <span class="card-number">04</span>
-                        <div class="card-icon">✦</div>
-                        <h3>Support</h3>
-                        <p>
-                            Get assistance and connect with the
-                            appropriate LIMBS support channels.
-                        </p>
-                        <span class="card-arrow">→</span>
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- PLATFORM FEATURES -->
-        <section class="features-section">
-            <div class="container features-grid">
-
-                <div class="features-content">
-                    <span class="section-label">THE PLATFORM</span>
-
-                    <h2>
-                        Built for a smarter
-                        legal workflow.
-                    </h2>
-
-                    <p>
-                        LIMBS is designed to make legal information easier
-                        to organize, discover and understand through a
-                        centralized digital experience.
-                    </p>
-
-                    <a href="pages/about.html" class="text-link">
-                        Discover the LIMBS vision →
-                    </a>
-                </div>
-
-                <div class="feature-list">
-
-                    <div class="feature-item">
-                        <span>01</span>
-                        <div>
-                            <h3>Centralized Information</h3>
-                            <p>
-                                Keep important legal resources and
-                                information organized in one platform.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="feature-item">
-                        <span>02</span>
-                        <div>
-                            <h3>Intelligent Briefing</h3>
-                            <p>
-                                Support structured briefings and faster
-                                access to relevant information.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="feature-item">
-                        <span>03</span>
-                        <div>
-                            <h3>Clear Reporting</h3>
-                            <p>
-                                Transform information into useful reports
-                                and understandable insights.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="feature-item">
-                        <span>04</span>
-                        <div>
-                            <h3>Accessible Experience</h3>
-                            <p>
-                                A modern interface designed for clear
-                                navigation and easy access.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- STATS -->
-        <section class="stats-section">
-            <div class="container stats-grid">
-
-                <div class="stat-item">
-                    <strong>01</strong>
-                    <span>Central Platform</span>
-                </div>
-
-                <div class="stat-item">
-                    <strong>24/7</strong>
-                    <span>Digital Access</span>
-                </div>
-
-                <div class="stat-item">
-                    <strong>100%</strong>
-                    <span>Responsive Design</span>
-                </div>
-
-                <div class="stat-item">
-                    <strong>∞</strong>
-                    <span>Future Ready</span>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- CTA -->
-        <section class="cta-section">
-            <div class="container cta-box">
-
-                <div>
-                    <span class="section-label">GET STARTED</span>
-
-                    <h2>
-                        Explore a modern way to
-                        manage legal information.
-                    </h2>
-                </div>
-
-                <a href="pages/dashboard.html" class="btn btn-primary">
-                    Open Dashboard →
-                </a>
-
-            </div>
-        </section>
-
     </main>
 
 
     <!-- FOOTER -->
     <footer class="site-footer">
 
-        <div class="container footer-grid">
-
-            <div class="footer-brand">
-                <div class="logo">
-                    <div class="logo-mark">L</div>
-                    <div>
-                        <strong>LIMBS</strong>
-                        <span>Legal Intelligence Platform</span>
-                    </div>
-                </div>
-
-                <p>
-                    A modern digital platform for legal information
-                    management, briefings and intelligent workflows.
-                </p>
+        <div class="container footer-content">
+            <div>
+                <h3>LIMBS</h3>
+                <p>Legal Information Management & Briefing System</p>
             </div>
 
-            <div class="footer-column">
-                <h4>Platform</h4>
-                <a href="pages/about.html">About LIMBS</a>
-                <a href="pages/services.html">Services</a>
-                <a href="pages/dashboard.html">Dashboard</a>
-                <a href="pages/reports.html">Reports</a>
-            </div>
-
-            <div class="footer-column">
-                <h4>Support</h4>
-                <a href="pages/contact.html">Contact</a>
-                <a href="pages/contact.html">Help</a>
-                <a href="pages/contact.html">Accessibility</a>
-            </div>
-
-        </div>
-
-        <div class="container footer-bottom">
-            <p>© 2026 LIMBS. Frontend Redesign Project.</p>
-            <p>Designed for a modern digital legal experience.</p>
+            <p>© 2026 LIMBS. All rights reserved.</p>
         </div>
 
     </footer>
 
-
-    <!-- JAVASCRIPT -->
-    <script src="js/navigation.js"></script>
-    <script src="js/animations.js"></script>
-    <script src="js/accessibility.js"></script>
-    <script src="js/main.js"></script>
-
 </body>
-
 </html>
