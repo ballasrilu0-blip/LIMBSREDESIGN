@@ -1,21 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>LIMBS Redesign</title>
+    <meta name="description"
+        content="Modern frontend redesign of the Legal Information Management and Briefing System">
 
+    <title>LIMBS | Legal Information Management & Briefing System</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
 
-    <main>
-        <h1>LIMBS Redesign</h1>
-        <p>Modern Legal Information Management and Briefing System</p>
-        <p>Website development is in progress.</p>
+    <!-- =========================
+         GOVERNMENT TOP BAR
+    ========================== -->
+
+    <div class="gov-bar">
+
+        <div class="container gov-bar__content">
+
+            <div class="gov-bar__left">
+                <span>🇮🇳 Government of India</span>
+                <span class="gov-divider"></span>
+                <span>Ministry of Law and Justice</span>
+            </div>
+
+            <div class="gov-bar__tools">
+
+                <button type="button">A-</button>
+                <button type="button">A</button>
+                <button type="button">A+</button>
+
+                <span class="gov-divider"></span>
+
+                <a href="#main-content">
+                    Skip to Main Content
+                </a>
+
+                <span class="gov-divider"></span>
+
+                <button type="button">
+                    English ▾
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MAIN HEADER
+    ========================== -->
+
+    <header class="site-header">
+
+        <div class="container header__content">
+
+            <!-- Brand -->
+
+            <a href="index.html" class="brand">
+
+                <div class="brand__emblem">
+                    ⚖
+                </div>
+
+                <div class="brand__text">
+
+                    <span class="brand__ministry">
+                        Ministry of Law and Justice
+                    </span>
+
+                    <h1>LIMBS</h1>
+
+                    <p>
+                        Legal Information Management & Briefing System
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- Header Actions -->
+
+            <div class="header__actions">
+
+                <div class="header-status">
+
+                    <span class="status-dot"></span>
+
+                    <div>
+                        <small>System Status</small>
+                        <strong>Operational</strong>
+                    </div>
+
+                </div>
+
+
+                <a href="pages/dashboard.html" class="header-login">
+
+                    <span>Secure Portal</span>
+                    <span>→</span>
+
+                </a>
+
+
+                <!-- Mobile Menu Button -->
+
+                <button
+                    class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+
+                    ☰
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <nav class="main-nav" id="navigation">
+
+        <div class="container nav__content">
+
+            <ul class="nav__links">
+
+                <li>
+                    <a href="index.html" class="active">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/about.html">
+                        About LIMBS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/services.html">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/dashboard.html">
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/reports.html">
+                        Reports
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <div class="nav__search">
+
+                <button type="button" aria-label="Search website">
+                    🔍
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main id="main-content">
+
+        <!-- Development / Introduction Section -->
+
+        <section class="development-placeholder">
+
+            <div class="container">
+
+                <span class="section-label">
+                    Digital Legal Governance
+                </span>
+
+                <h2 class="section-title">
+
+                    Building the Future of
+
+                    <span>
+                        Legal Intelligence
+                    </span>
+
+                </h2>
+
+                <p class="section-description">
+
+                    A modern, accessible and intelligent frontend redesign
+                    for the Legal Information Management and Briefing System.
+
+                    This platform is being developed to provide a better
+                    digital experience for accessing legal information,
+                    services and insights.
+
+                </p>
+
+
+                <div class="intro-actions">
+
+                    <a href="pages/about.html"
+                        class="btn btn--primary">
+
+                        Explore LIMBS
+                        <span>→</span>
+
+                    </a>
+
+
+                    <a href="pages/services.html"
+                        class="btn btn--secondary">
+
+                        View Services
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Quick Overview Section -->
+
+        <section class="overview-section">
+
+            <div class="container">
+
+                <div class="overview-heading">
+
+                    <span class="section-label">
+                        Platform Overview
+                    </span>
+
+                    <h2 class="section-title">
+                        One Platform. Better Legal Information.
+                    </h2>
+
+                    <p class="section-description">
+
+                        A redesigned interface focused on accessibility,
+                        information discovery and a modern user experience.
+
+                    </p>
+
+                </div>
+
+
+                <div class="overview-grid">
+
+                    <article class="overview-card">
+
+                        <div class="card-icon">
+                            ⚖
+                        </div>
+
+                        <h3>
+                            Legal Information
+                        </h3>
+
+                        <p>
+                            Organised access to important legal information
+                            and government-related resources.
+                        </p>
+
+                    </article>
+
+
+                    <article class="overview-card">
+
+                        <div class="card-icon">
+                            📊
+                        </div>
+
+                        <h3>
+                            Smart Insights
+                        </h3>
+
+                        <p>
+                            A clear and structured interface for understanding
+                            legal data and information.
+                        </p>
+
+                    </article>
+
+
+                    <article class="overview-card">
+
+                        <div class="card-icon">
+                            🔒
+                        </div>
+
+                        <h3>
+                            Secure Access
+                        </h3>
+
+                        <p>
+                            A professional digital environment designed with
+                            secure and responsible access in mind.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 LIMBS Frontend Redesign · Academic Project
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript Files -->
+
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/accessibility.js"></script>
+    <script src="js/animations.js"></script>
+
 </body>
+
 </html>

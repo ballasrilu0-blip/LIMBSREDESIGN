@@ -1,5 +1,7 @@
 :root {
+
     /* Brand Colors */
+
     --primary: #0b2b4c;
     --primary-dark: #061a30;
     --primary-light: #164b78;
@@ -9,28 +11,41 @@
 
     --success: #1f9d68;
 
+
     /* Neutral Colors */
+
     --white: #ffffff;
     --background: #f4f7fb;
     --surface: #ffffff;
+
     --text: #172033;
     --muted: #667085;
     --border: #d9e2ec;
 
+
     /* Layout */
+
     --container: 1200px;
 
+
     /* Border Radius */
+
     --radius-sm: 8px;
     --radius-md: 16px;
     --radius-lg: 28px;
     --radius-round: 999px;
 
+
     /* Shadows */
+
     --shadow-sm: 0 8px 20px rgba(11, 43, 76, 0.08);
+
     --shadow-md: 0 15px 35px rgba(11, 43, 76, 0.12);
+
     --shadow-lg: 0 25px 60px rgba(11, 43, 76, 0.18);
 
+
     /* Animation */
+
     --transition: 0.3s ease;
 }
