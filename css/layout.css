@@ -317,3 +317,325 @@
     color: var(--primary-dark);
     background: var(--accent);
 }
+/* =========================
+   SERVICES PAGE HERO
+========================= */
+
+.services-page-hero {
+    padding-bottom: 6rem;
+}
+
+.services-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    align-items: end;
+    gap: 4rem;
+}
+
+.services-hero-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.services-stat-card {
+    min-height: 130px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.services-stat-card strong {
+    color: var(--primary);
+    font-size: 2rem;
+}
+
+.services-stat-card span {
+    color: var(--muted);
+    font-size: 0.8rem;
+}
+
+
+/* =========================
+   SERVICE EXPLORER
+========================= */
+
+.service-explorer-section {
+    padding: 6rem 0;
+    background: var(--white);
+}
+
+.service-explorer-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.service-explorer-heading > div {
+    max-width: 700px;
+}
+
+.service-explorer-heading > p {
+    max-width: 350px;
+    color: var(--muted);
+}
+
+.advanced-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+.advanced-service-card {
+    min-height: 360px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    transition: var(--transition);
+}
+
+.advanced-service-card:hover {
+    transform: translateY(-8px);
+    background: var(--white);
+    box-shadow: var(--shadow-md);
+}
+
+.service-card-large {
+    grid-row: span 2;
+    min-height: 100%;
+    background: var(--primary);
+}
+
+.service-card-dark {
+    background: var(--primary-dark);
+}
+
+.advanced-service-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.advanced-service-number {
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.service-card-large .advanced-service-number,
+.service-card-dark .advanced-service-number {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.advanced-service-icon {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    background: var(--white);
+    border-radius: var(--radius-sm);
+    font-size: 1.5rem;
+}
+
+.service-card-large .advanced-service-icon,
+.service-card-dark .advanced-service-icon {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.advanced-service-card h3 {
+    margin-top: 2rem;
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+.advanced-service-card p {
+    margin-top: 0.8rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.service-card-large h3,
+.service-card-dark h3 {
+    color: var(--white);
+}
+
+.service-card-large p,
+.service-card-dark p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.service-features {
+    display: grid;
+    gap: 0.7rem;
+    margin-top: 2rem;
+}
+
+.service-features li {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.85rem;
+}
+
+.service-features li::before {
+    content: "✓";
+    margin-right: 0.5rem;
+    color: var(--accent);
+}
+
+.service-link {
+    margin-top: auto;
+    padding-top: 2rem;
+    color: var(--primary);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.service-card-large .service-link,
+.service-card-dark .service-link {
+    color: var(--accent-light);
+}
+
+
+/* =========================
+   DIGITAL WORKFLOW
+========================= */
+
+.digital-workflow-section {
+    padding: 6rem 0;
+    background: var(--background);
+}
+
+.workflow-heading {
+    max-width: 750px;
+    margin-bottom: 3rem;
+}
+
+.workflow-steps {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+    align-items: stretch;
+}
+
+.workflow-step {
+    min-height: 260px;
+    padding: 1.5rem;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+}
+
+.workflow-step-number {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 2rem;
+    color: var(--primary);
+    background: rgba(214, 167, 58, 0.15);
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.workflow-step-content > span {
+    color: var(--accent);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.workflow-step h3 {
+    margin-top: 0.5rem;
+    color: var(--primary);
+    font-size: 1rem;
+}
+
+.workflow-step p {
+    margin-top: 0.8rem;
+    color: var(--muted);
+    font-size: 0.82rem;
+}
+
+.workflow-arrow {
+    display: grid;
+    place-items: center;
+    width: 55px;
+    color: var(--accent);
+    font-size: 1.5rem;
+}
+
+
+/* =========================
+   SERVICE ACCESS
+========================= */
+
+.service-access-section {
+    padding: 6rem 0;
+    background: var(--white);
+}
+
+.service-access-card {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    color: var(--white);
+    background:
+        radial-gradient(
+            circle at 90% 10%,
+            rgba(214, 167, 58, 0.2),
+            transparent 30%
+        ),
+        var(--primary);
+    border-radius: var(--radius-lg);
+}
+
+.service-access-content {
+    max-width: 700px;
+}
+
+.service-access-content .section-label {
+    color: var(--white);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.service-access-content h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+}
+
+.service-access-content h2 span {
+    color: var(--accent);
+}
+
+.service-access-content p {
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.service-access-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.service-access-actions .btn--primary {
+    color: var(--primary-dark);
+    background: var(--accent);
+}
+
+.service-access-actions .btn--secondary {
+    color: var(--white);
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+}
